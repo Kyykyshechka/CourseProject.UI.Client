@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+    height: 100%;
+    z-index: -1;
+    margin: 0 auto;
+}
+
+body{
+    overflow: hidden;
+}
+
+.form{
+    border: 1px black solid;
+    margin: 20px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+}
+
+.panel{
+    position: absolute;
+    width: 250px;
+}
+
+.indicator{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+.indicator-value{
+    font-size: 24px;
+    margin: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: fit-content;
+}
+
+#backgroundArea{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#hidden-form {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  visibility: hidden;
+}
+
+.forms{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.diagram-button{
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.clock {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #333;
+}
+
+.clock p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.burner-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+    top: 120px;
+    left: 720px;
+}
+
+#burner-light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#burner-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fan-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+    top: 50px;
+    left: 1060px;
+}
+
+#fan-light {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#fan-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.alarmtemperature-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+    top: 510px;
+    left: 100px;
+}
+
+#alarmtemperature-light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#alarmtemperature-value {
+    font-size: 1px;
+    font-weight: bold;
+    color: #333;
+}
+
+.alarmpressure-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+    top: 510px;
+    left: 180px;
+}
+
+#alarmpressure-light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    
+}
+
+#alarmpressure-value {
+    font-size: 1px;
+    font-weight: bold;
+    color: #333;
+}
